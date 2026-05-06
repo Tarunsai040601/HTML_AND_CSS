@@ -1,0 +1,27 @@
+.boxes{
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.boxes div{
+    border: 5px solid black;
+    padding: 20px;
+    width: 300px;
+    height: 500px;
+    overflow: auto;
+    box-sizing: border-box;
+   
+}
+
+.boxes img{
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 4px 5px 6px 9px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
