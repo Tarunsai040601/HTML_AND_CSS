@@ -10,6 +10,11 @@
   flex-wrap: nowrap;
   padding: 20px 50px;
   background-color: antiquewhite;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .lists a {
